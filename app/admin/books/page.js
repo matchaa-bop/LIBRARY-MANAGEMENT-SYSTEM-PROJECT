@@ -17,7 +17,7 @@ const BooksTable = () => {
             category: 'Fiction, Fantasy',
             published: '2022',
             status: 'Available',
-            image: '/img/book01.jpg',
+            image: '/img/book04.jpg',
         },
         {
             id: 2,

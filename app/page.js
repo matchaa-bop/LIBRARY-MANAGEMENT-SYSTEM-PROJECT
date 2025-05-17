@@ -26,7 +26,7 @@ export default function Home() {
 
           <p className="text-base sm:text-lg md:text-xl max-w-xl mb-6 mt-3 leading-relaxed">
             Our Library lets users browse, borrow, and view books easily.
-            It&apos;s designed to make library access simple, fast, and well-organized.
+            It's designed to make library access simple, fast, and well-organized.
           </p>
 
           <a
@@ -50,10 +50,10 @@ export default function Home() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 pt-20">About Our Library System</h2>
             <p className="text-gray-300 mb-6">
-              Our Library Management System is designed to make managing books, users, and borrowing activities more efficient and intuitive. Whether you&apos;re an admin or a library user, our system delivers a smooth and smart experience.
+              Our Library Management System is crafted to enhance the efficiency and user-friendliness of managing books, patrons, and borrowing processes. Whether you are an administrator or a library member, our platform provides a seamless and intelligent experience.
             </p>
             <p className="text-gray-400">
-              With automated workflows, real-time inventory tracking, and an easy-to-navigate dashboard, we&apos;re transforming how libraries operate in the digital age.
+              Featuring automated workflows, real-time inventory management, and a user-friendly dashboard, we are revolutionizing library operations for the modern era.
             </p>
           </div>
           <div className="flex justify-center">
@@ -67,7 +67,7 @@ export default function Home() {
         id="services"
         className="relative bg-cover bg-center bg-no-repeat text-white py-24 px-6"
         style={{
-          backgroundImage: "url('/img/bg-bg.jpg')",
+          backgroundImage: "url('/img/lib1.jpg')",
         }}
       >
         {/* Overlay */}
@@ -81,19 +81,19 @@ export default function Home() {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+            <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">Book Borrowing</h3>
-              <p className="text-gray-300 text-sm">Borrow books seamlessly with our smart borrowing system.</p>
+              <p className="text-gray-700 text-sm">Borrow books seamlessly with our smart borrowing system.</p>
             </div>
 
-            <div className="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+            <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">Online Catalog</h3>
-              <p className="text-gray-300 text-sm">Browse our digital catalog from any device, anytime.</p>
+              <p className="text-gray-700 text-sm">Browse our digital catalog from any device, anytime.</p>
             </div>
 
-            <div className="bg-gray-800 bg-opacity-90 p-6 rounded-lg shadow-md">
+            <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">Admin Tools</h3>
-              <p className="text-gray-300 text-sm">Manage users, books, and activity from an intuitive dashboard.</p>
+              <p className="text-gray-700 text-sm">Manage users, books, and activity from an intuitive dashboard.</p>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@ export default function Home() {
       {/* CONTACT */}
       <section id="contact" className="min-h-screen w-full text-white py-16 px-4 pt-40"
         style={{
-          backgroundImage: "url('/img/anoto.jpg')",
+          backgroundImage: "url('/img/lib1.jpg')",
         }}>
         <div className="max-w-6xl mx-auto bg-gray-900 rounded-xl p-10 shadow-lg">
           <div className="flex flex-col md:flex-row gap-10">
