@@ -102,33 +102,46 @@ export default function Home() {
       {/* GROUP PROFILES */}
       <section className="bg-gray-900 text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Team</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">GROUP MEMBERS</h2>
 
           {/* Top Row - 3 Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/M.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">John Reyvel Guran</h3>
+              <h3 className="text-lg font-semibold">Lloyd Allan Gimena</h3>
+              <p className="text-gray-400">Backend Developer</p>
+            </div>
+             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
+              <Image src="/img/F.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Micah Mae Briones</h3>
+              <p className="text-gray-400">Frontend Developer</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
+              <Image src="/img/F.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Cybelle Ann Godalla</h3>
+              <p className="text-gray-400">Frontend Developer</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
+              <Image src="/img/F.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Mariane Geraldino</h3>
+              <p className="text-gray-400">Frontend Developer</p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
+              <Image src="/img/M.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Patrick Palacio</h3>
               <p className="text-gray-400">Backend Developer</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/M.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Von Lloyd Balana</h3>
-              <p className="text-gray-400">Full Stack Developer</p>
+              <h3 className="text-lg font-semibold">Ralph Gasid</h3>
+              <p className="text-gray-400">Frontend Developer</p>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/F.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Janna Garcera Estayan</h3>
-              <p className="text-gray-400">Backend Developer</p>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/F.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Agatha Nicole</h3>
-              <p className="text-gray-400">Backend Developer</p>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/F.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Rochelle Gripal Gaton</h3>
+              <Image src="/img/M.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <h3 className="text-lg font-semibold">Joshua Catipon</h3>
               <p className="text-gray-400">Backend Developer</p>
             </div>
           </div>
