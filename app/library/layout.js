@@ -56,46 +56,34 @@ export default function LibraryLayout({ children }) {
                 </header>
 
                 {/* Sidebar */}
-                {sidebarOpen && (
-                    <aside className="bg-gray-800 text-white w-64 p-6 fixed top-0 left-0 h-full z-50 shadow-lg">
-                        <button
-                            onClick={() => setSidebarOpen(false)}
-                            className="text-right w-full text-xl mb-4"
-                        >
-                            ×
-                        </button>
-                        <nav className="space-y-4">
-                            <a
-                                href="/"
-                                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition"
-                            >
-                                <FaHome />
-                                <span>Home</span>
-                            </a>
-                            <a
-                                href="/library"
-                                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition"
-                            >
-                                <FaBook />
-                                <span>Library</span>
-                            </a>
-                            <a
-                                href="/about"
-                                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition"
-                            >
-                                <FaInfoCircle />
-                                <span>About</span>
-                            </a>
-                            <a
-                                href="/contact"
-                                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition"
-                            >
-                                <FaEnvelope />
-                                <span>Contact</span>
-                            </a>
-                        </nav>
-                    </aside>
-                )}
+{sidebarOpen && (
+    <aside className="bg-gray-800 text-white w-64 p-6 fixed top-0 left-0 h-full z-50 shadow-lg">
+        <button
+            onClick={() => setSidebarOpen(false)}
+            className="text-right w-full text-xl mb-4"
+        >
+            ×
+        </button>
+        <nav className="space-y-4">
+            <Link href="/" className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition">
+                <FaHome />
+                <span>Home</span>
+            </Link>
+            <Link href="/library" className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition">
+                <FaBook />
+                <span>Library</span>
+            </Link>
+            <Link href="/about" className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition">
+                <FaInfoCircle />
+                <span>About</span>
+            </Link>
+            <Link href="/contact" className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition">
+                <FaEnvelope />
+                <span>Contact</span>
+            </Link>
+        </nav>
+    </aside>
+)}
 
                 {/* Main Content */}
                 <main className="mt-16 md:mt-20 p-6 md:p-10 bg-gray-100 rounded-lg shadow-md">
