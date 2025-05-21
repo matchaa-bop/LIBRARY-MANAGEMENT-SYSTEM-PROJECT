@@ -178,14 +178,14 @@ export default function Home() {
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/micahh.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
-              <h3 className="text-lg font-semibold">Micah Briones</h3>
-              <p className="text-gray-400">Full Stack Developer</p>
+              <h3 className="text-lg font-semibold">Micah Mae Briones</h3>
+              <p className="text-gray-400">Frontend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
               <Image src="/img/cybelle.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
               <h3 className="text-lg font-semibold">Cybelle Ann Godalla</h3>
-              <p className="text-gray-400">Backend Developer</p>
+              <p className="text-gray-400">Frontend Developer</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
