@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from "next/link";
 import AuthModal from "../auth/AuthModal";
 
 export default function Navbar() {
@@ -17,11 +18,28 @@ export default function Navbar() {
       </div>
 
       <ul className="hidden md:flex space-x-6 text-white font-bold">
-        <li><a href="#home" className="hover:text-yellow-500">Home</a></li>
-        <li><a href="#about" className="hover:text-yellow-500">About</a></li>
-        <li><a href="#services" className="hover:text-yellow-500">Services</a></li>
-        <li><a href="#contact" className="hover:text-yellow-500">Contact</a></li>
-      </ul>
+      <li>
+        <Link href="#home" className="hover:text-yellow-500">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link href="#about" className="hover:text-yellow-500">
+          About
+        </Link>
+      </li>
+      <li>
+        <Link href="#services" className="hover:text-yellow-500">
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact" className="hover:text-yellow-500">
+          Contact
+        </Link>
+      </li>
+    </ul>
+
 
       <button
        onClick={() => setShowModal(true)}

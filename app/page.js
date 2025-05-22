@@ -29,14 +29,6 @@ export default function Home() {
             It's designed to make library access simple, fast, and well-organized.
           </p>
 
-          <a
-            href="#"
-            className="bg-gradient-to-r from-yellow-500 to-orange-600 hover:from-yellow-500 hover:to-orange-500 
-            text-white font-semibold px-6 py-3 rounded-full transition duration-300 mb-8 "
-          >
-            Login or Register to Access
-          </a>
-
           <div className="flex flex-col sm:flex-col gap-2 sm:gap-4 bg-black/90 rounded-sm pr-10 pl-10 pt-2 pb-2 font-Semibold">
             <Link href="/admin" className="underline hover:text-yellow-500">Admin Panel Test ➤</Link>
             <Link href="/library" className="underline hover:text-yellow-500">Library for Users Test ➤</Link>

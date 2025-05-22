@@ -8,16 +8,16 @@ import EditUserModal from '@/components/modals/usersModal/EditUserModal';
 import DeleteUserModal from '@/components/modals/usersModal/DeleteUserModal';
 
 const LibraryUsersTable = () => {
-    const allUsers = [
-        { id: 1, name: 'Micah Mae', email: 'micahmae@gmail.com', role: 'Student', joined: '2024-09-15', status: 'Active' },
-        { id: 2, name: 'Cybelle Ann', email: 'cybelleann@gmail.com', role: 'Student', joined: '2023-12-01', status: 'Active' },
-        { id: 3, name: 'Lloyd Troy', email: 'lloydtroy@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Active' },
-        { id: 4, name: 'Mariane ', email: 'mariane@gmail.com', role: 'Librarian', joined: '2022-07-22', status: 'Active' },
-        { id: 5, name: 'Patrick', email: 'patrick@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Inactive' },
-        { id: 6, name: 'Ralph', email: 'ralph@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Active' },
-        { id: 7, name: 'Lukas', email: 'lukas@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Inactive' },
-        { id: 8, name: 'NIcole', email: 'nicole@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Active' },
-    ];
+    const [allUsers, setAllUsers] = useState([
+    { id: 1, name: 'Micah Mae', email: 'micahmae@gmail.com', role: 'Student', joined: '2024-09-15', status: 'Active' },
+    { id: 2, name: 'Cybelle Ann', email: 'cybelleann@gmail.com', role: 'Student', joined: '2023-12-01', status: 'Active' },
+    { id: 3, name: 'Lloyd Troy', email: 'lloydtroy@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Active' },
+    { id: 4, name: 'Mariane ', email: 'mariane@gmail.com', role: 'Librarian', joined: '2022-07-22', status: 'Active' },
+    { id: 5, name: 'Patrick', email: 'patrick@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Inactive' },
+    { id: 6, name: 'Ralph', email: 'ralph@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Active' },
+    { id: 7, name: 'Lukas', email: 'lukas@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Inactive' },
+    { id: 8, name: 'NIcole', email: 'nicole@gmail.com', role: 'Student', joined: '2025-01-10', status: 'Active' },
+]);
 
     const [currentPage, setCurrentPage] = useState(1);
     const rowsPerPage = 7;
