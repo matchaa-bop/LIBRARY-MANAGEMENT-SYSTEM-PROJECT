@@ -96,13 +96,7 @@ export default function AdminLayout({ children }) {
                         </Link>
                         <span className="tooltip">Messages</span>
                     </li>
-                    <li>
-                        <Link href="/admin/chart">
-                            <i className="bx bx-pie-chart-alt-2"></i>
-                            <span className="links_name">Analytics/Reports</span>
-                        </Link>
-                        <span className="tooltip">Analytics/Reports</span>
-                    </li>
+                  
                     <li>
                         <Link href="/admin/settings">
                             <i className="bx bx-cog"></i>
