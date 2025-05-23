@@ -20,19 +20,37 @@ export default function Home() {
             backgroundRepeat: 'no-repeat',
           }}
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-yellow-500 leading-tight mb-4">
-            Welcome to our Library
-          </h1>
-
-          <p className="text-base sm:text-lg md:text-xl max-w-xl mb-6 mt-3 leading-relaxed">
-            Our Library lets users browse, borrow, and view books easily.
-            It's designed to make library access simple, fast, and well-organized.
-          </p>
-
-          <div className="flex flex-col sm:flex-col gap-2 sm:gap-4 bg-black/90 rounded-sm pr-10 pl-10 pt-2 pb-2 font-Semibold">
-            <Link href="/admin" className="underline hover:text-yellow-500">Admin Panel Test ➤</Link>
-            <Link href="/library" className="underline hover:text-yellow-500">Library for Users Test ➤</Link>
-          </div>
+                <div className="backdrop-blur-md bg-black/60 rounded-2xl px-8 py-6 mb-6 shadow-lg max-w-2xl w-full">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-4 drop-shadow">
+          Welcome to our Library
+        </h1>
+        <p className="text-base sm:text-lg md:text-xl max-w-xl mb-2 mt-3 leading-relaxed text-gray-100 drop-shadow">
+          Our Library lets users browse, borrow, and view books easily.
+          It&apos;s designed to make library access simple, fast, and well-organized.
+        </p>
+      </div>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <Link
+          href="/admin"
+          className="backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl px-8 py-4 font-semibold text-lg text-yellow-400 hover:bg-white/20 hover:text-yellow-500 transition-all duration-200"
+          style={{
+            boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+            border: "1px solid rgba(255,255,255,0.18)",
+          }}
+        >
+          Admin Panel Test ➤
+        </Link>
+        <Link
+       href="/library"
+         className="backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-xl px-8 py-4 font-semibold text-lg text-blue-300 hover:bg-white/20 hover:text-blue-400 transition-all duration-200"
+         style={{
+         boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+        border: "1px solid rgba(255,255,255,0.18)",
+         }}
+        >
+        Library for Users Test ➤
+        </Link>
+        </div>
         </div>
       </section>
 
@@ -70,21 +88,19 @@ export default function Home() {
             Discover what our library system offers to simplify borrowing, tracking, and managing books efficiently.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-2">Book Borrowing</h3>
-              <p className="text-gray-700 text-sm">Borrow books seamlessly with our smart borrowing system.</p>
-            </div>
+          <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2">Book Borrowing</h3>
+             <p className="text-white text-sm">Borrow books seamlessly with our smart borrowing system.</p>
+          </div>
 
-            <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-2">Online Catalog</h3>
-              <p className="text-gray-700 text-sm">Browse our digital catalog from any device, anytime.</p>
-            </div>
+          <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2">Online Catalog</h3>
+            <p className="text-white text-sm">Browse our digital catalog from any device, anytime.</p>
+          </div>
 
-            <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-2">Admin Tools</h3>
-              <p className="text-gray-700 text-sm">Manage users, books, and activity from an intuitive dashboard.</p>
-            </div>
+          <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-2">Admin Tools</h3>
+            <p className="text-white text-sm">Manage users, books, and activity from an intuitive dashboard.</p>
           </div>
         </div>
       </section>
