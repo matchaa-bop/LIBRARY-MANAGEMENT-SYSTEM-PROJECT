@@ -81,37 +81,37 @@ export default function Home() {
       </section>
 
       {/* SERVICE */}
-      <section
-        id="services"
-        className="relative bg-cover bg-center bg-no-repeat text-white py-24 px-6"
-        style={{
-          backgroundImage: "url('/img/lib1.jpg')",
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-45"></div>
+          <section
+      id="services"
+      className="relative bg-cover bg-center bg-no-repeat text-white py-24 px-6"
+      style={{
+        backgroundImage: "url('/img/lib1.jpg')",
+      }}
+    >
+      <div className="absolute inset-0 bg-black bg-opacity-45"></div>
 
-        <div className="relative z-10 max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Services</h2>
-          <p className="text-gray-200 mb-12 max-w-2xl mx-auto">
-            Discover what our library system offers to simplify borrowing, tracking, and managing books efficiently.
-          </p>
+      <div className="relative z-10 max-w-6xl mx-auto text-center">
+        <h2 className="text-4xl md:text-5xl font-bold mb-8">Our Services</h2>
+        <p className="text-lg md:text-2xl text-gray-200 mb-14 max-w-2xl mx-auto">
+          Discover what our library system offers to simplify borrowing, tracking, and managing books efficiently.
+        </p>
 
-          <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Book Borrowing</h3>
-             <p className="text-white text-sm">Borrow books seamlessly with our smart borrowing system.</p>
-          </div>
-
-          <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Online Catalog</h3>
-            <p className="text-white text-sm">Browse our digital catalog from any device, anytime.</p>
-          </div>
-
-          <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2">Admin Tools</h3>
-            <p className="text-white text-sm">Manage users, books, and activity from an intuitive dashboard.</p>
-          </div>
+        <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-8 rounded-lg shadow-md mb-8">
+          <h3 className="text-2xl font-semibold mb-3">Book Borrowing</h3>
+          <p className="text-white text-base">Borrow books seamlessly with our smart borrowing system.</p>
         </div>
-      </section>
+
+        <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-8 rounded-lg shadow-md mb-8">
+          <h3 className="text-2xl font-semibold mb-3">Online Catalog</h3>
+          <p className="text-white text-base">Browse our digital catalog from any device, anytime.</p>
+        </div>
+
+        <div className="bg-gradient-to-r from-yellow-500 to-orange-800 p-8 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-3">Admin Tools</h3>
+          <p className="text-white text-base">Manage users, books, and activity from an intuitive dashboard.</p>
+        </div>
+      </div>
+    </section>
 
       {/* CONTACT */}
       <section id="contact" className="min-h-screen w-full text-white py-16 px-4 pt-40"
