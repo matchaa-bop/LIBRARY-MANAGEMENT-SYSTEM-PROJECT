@@ -55,19 +55,27 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section className="min-h-screen w-full bg-gray-900 py-16 px-4 md:px-8 lg:px-16 text-white" id="about">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <section className="min-h-screen w-full bg-gray-900 py-24 px-4 md:px-16 lg:px-32 text-white" id="about">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 pt-20">About Our Library System</h2>
-            <p className="text-gray-300 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-8 pt-10">About Our Library System</h2>
+            <p className="text-xl md:text-2xl text-gray-200 mb-8">
               Our Library Management System is crafted to enhance the efficiency and user-friendliness of managing books, patrons, and borrowing processes. Whether you are an administrator or a library member, our platform provides a seamless and intelligent experience.
             </p>
-            <p className="text-gray-400">
+            <p className="text-xl md:text-2xl text-yellow-200">
               Featuring automated workflows, real-time inventory management, and a user-friendly dashboard, we are revolutionizing library operations for the modern era.
             </p>
           </div>
           <div className="flex justify-center">
-            <Image src="/img/books.jpg" alt="Library system preview" width={1200} height={80} className="w-full max-w-md pt-20" />
+            <div className="rounded-2xl overflow-hidden border-4 border-yellow-400 shadow-lg w-[480px] h-[320px] flex items-center justify-center bg-gray-800">
+              <Image
+                src="/img/books.jpg"
+                alt="Library system preview"
+                width={480}
+                height={320}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
         </div>
       </section>
