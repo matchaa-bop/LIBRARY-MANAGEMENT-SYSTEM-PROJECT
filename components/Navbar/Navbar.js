@@ -12,10 +12,14 @@ export default function Navbar() {
     <nav className="fixed top-0 z-50 bg-black/50 backdrop-blur-sm border-b border-white/20 px-6 py-2 flex justify-between
       items-center left-0 w-full">
       {/* Logo */}
-      <div className="logo flex items-center space-x-1 italic">
-        <Image src="/img/logo.png" alt="Logo" width={48} height={44} />
-        <span className="text-white text-xl font-bold">G3<span className="text-yellow-500 text-xl font-bold Logo">LMS</span></span>
-      </div>
+      <div className="logo flex items-center space-x-2 italic">
+  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-yellow-500 flex items-center justify-center bg-white">
+    <Image src="/img/logos.jpg" alt="Logo" width={48} height={48} className="object-cover w-12 h-12" />
+  </div>
+  <span className="text-white text-xl font-bold">
+    G5<span className="text-yellow-500 text-xl font-bold Logo">LMS</span>
+  </span>
+</div>
 
       <ul className="hidden md:flex space-x-6 text-white font-bold">
       <li>

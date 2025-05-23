@@ -179,7 +179,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="bg-gray-800 p-6 rounded-lg text-center shadow-md">
-              <Image src="/img/M.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
+              <Image src="/img/lloyd.jpg" alt="Profile" width={96} height={96} className="w-24 h-24 mx-auto rounded-full mb-4" />
               <h3 className="text-lg font-semibold">LLloyd Allan Gimena</h3>
               <p className="text-gray-400">Backend Developer</p>
             </div>
